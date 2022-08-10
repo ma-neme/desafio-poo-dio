@@ -4,7 +4,7 @@ public abstract class Conteudo {
     //criada pra trabalhar com Herança
     //classe abstrata significa que nao consigo instanciar conteudo
 
-    public protected final double XP_PADRAO = 10d; //cria uma constante padrão. static = pode acessar xp padrao fora da classe, protected = classe e filhos pode acessar
+    protected final double XP_PADRAO = 10d; //cria uma constante padrão. static = pode acessar xp padrao fora da classe, protected = classe e filhos pode acessar
 
     private String titulo;
     private String descricao;
