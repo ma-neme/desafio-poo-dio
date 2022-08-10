@@ -1,3 +1,4 @@
+import br.com.dio.desafio.dominio.Conteudo;
 import br.com.dio.desafio.dominio.Curso;
 import br.com.dio.desafio.dominio.Mentoria;
 
@@ -22,6 +23,9 @@ public class Main {
 
         System.out.println(mentoria1);
         //System.out.println(curso2);
+
+        //Conteudo conteudo = new Conteudo();   não permite, pois caonteudo é uma classe abstrata
+        //Conteudo conteudo = new Curso();  //polimorfismo. instanciou umcurso a partir de conteudo
 
     }
 }
